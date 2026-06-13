@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bahish Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background:#f8f5f2;
+        }
+        header{
+            background:#4b2e2e;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+        nav{
+            background:#6f4e37;
+            padding:10px;
+            text-align:center;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+        }
+        .hero{
+            padding:60px 20px;
+            text-align:center;
+        }
+        .btn{
+            background:#6f4e37;
+            color:white;
+            padding:12px 20px;
+            text-decoration:none;
+            border-radius:5px;
+        }
+        footer{
+            background:#4b2e2e;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bahish Cafe</h1>
+    <p>Fresh Coffee • Delicious Food • Great Moments</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Bahish Cafe</h2>
+    <p>Experience freshly brewed coffee, tasty snacks, and a cozy atmosphere.</p>
+    <a href="menu.html" class="btn">View Menu</a>
+</section>
+
+<section style="padding:20px;">
+    <h2>About Us</h2>
+    <p>
+        Bahish Cafe is dedicated to serving high-quality coffee,
+        refreshing beverages, and delicious meals in a warm and friendly environment.
+    </p>
+</section>
+
+<footer>
+    © 2026 Bahish Cafe. All Rights Reserved.
+</footer>
+
+</body>
+</html>
